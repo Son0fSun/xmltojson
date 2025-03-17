@@ -42,21 +42,21 @@ pip install -r requirements.txt
 
 Convert an XML file:
 ```bash
-python xml_to_json.py input.xml [output.json]
+python xmltojson.py input.xml [output.json]
 ```
 
 Convert an XML string:
 ```bash
-python xml_to_json.py -s "<root><data>example</data></root>" [output.json]
+python xmltojson.py -s "<root><data>example</data></root>" [output.json]
 ```
 
 ### Programmatic Usage
 
 ```python
-from xml_to_json import xml_to_json
+from xmltojson import xmltojson
 
 # Using file
-result = xml_to_json("input.xml", "output.json")
+result = xmltojson("input.xml", "output.json")
 
 # Using string
 xml_string = "<root><data>example</data></root>"
