@@ -27,8 +27,8 @@ pip install xmltodict
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/xml-to-json-converter.git
-cd xml-to-json-converter
+git clone https://github.com/Son0fSun/xmltojson.git
+cd xmltojson
 ```
 
 2. Install dependencies:
